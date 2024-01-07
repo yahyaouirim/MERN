@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom right, #3639d9, #cf1980);
+  color:#fff;
+  border:1px solid transparent;
+
+  background-color: #333;
+  box-shadow: 20px 20px 17px 0px rgba(0,0,0,0.75);
+}
+#root:hover{
+  transform: scale(1.1);
+  opacity: .9;
+}
+body{
+  background-color: #94a3b8;
+  font-family: 'Roboto', sans-serif;
+
+  color: aliceblue;
+}
+.card{
+  margin-left: 0px;
+}
+h1{
+  border-bottom: 5px double hsl(306, 100%, 2%);
+  text-transform: uppercase;
+  transition: all 5s ease;
+  text-align: center;
+
+}
+h2{
+  initial-letter: 2;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+  font-size: 1.25em;
+  animation: translate-x 3s linear infinite;
+
+}
+
+@keyframes translate-x {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(30%);
+  }
+}
+h1:hover{
+  font-size: 3.5 erm;
+  color: rgb(21, 12, 15);
+}
+ul{
+  list-style: none;
+}
+li{
+  text-align: left;
+
+  animation: move 4s linear infinite;
+
+}
+@keyframes move{
+  0%{ margin-left: -20px;}
+
+  100%{margin-left: 150px;}
+}
+@keyframes moveBack{
+  0%{ margin-left: 150px;}
+
+  100%{margin-left: -20px;}
+}
