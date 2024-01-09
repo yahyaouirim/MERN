@@ -1,0 +1,20 @@
+
+.App{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2727;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card{
+  width: 25%;
+  border: 5px double green;
+  border-radius: 15% ;
+  background-color: #e7fdc0;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
