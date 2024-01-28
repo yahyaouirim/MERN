@@ -1,0 +1,542 @@
+https://pokeapi.co/api/v2/pokemon/ivysaur
+https://pokeapi.co/api/v2/pokemon/venusaur
+https://pokeapi.co/api/v2/pokemon/charmender
+https://pokeapi.co/api/v2/pokemon/charmeleon
+https://pokeapi.co/api/v2/pokemon/charizard
+/*****************************************venuysaur***********************************/
+
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "overgrow",
+                "url": "https://pokeapi.co/api/v2/ability/65/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "chlorophyll",
+                "url": "https://pokeapi.co/api/v2/ability/34/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 263,
+    "forms": [
+        {
+            "name": "venusaur",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/3/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 154,
+            "version": {
+                "name": "red",
+                "url": "https://pokeapi.co/api/v2/version/1/"
+            }
+        },
+        {
+            "game_index": 154,
+            "version": {
+                "name": "blue",
+                "url": "https://pokeapi.co/api/v2/version/2/"
+            }
+        },
+        {
+            "game_index": 154,
+            "version": {
+                "name": "yellow",
+                "url": "https://pokeapi.co/api/v2/version/3/"
+            }
+        },
+        {
+            "game_index": 3,
+            "version": {
+                "name": "gold",
+                "url": "https://pokeapi.co/api/v2/version/4/"
+            }
+        },
+        {
+            "game_index": 3,
+            "version": {
+                "name": "silver",
+                "url": "https://pokeapi.co/api/v2/version/5/"
+            }
+        },
+        {
+            "game_index": 3,
+            "version": {
+                "name": "crystal",
+                "url": "https://pokeapi.co/api/v2/version/6/"
+            }
+        },
+        {
+            "game_index": 3,
+            "version": {
+                "name": "ruby",
+                "url": "https://pokeapi.co/api/v2/version/7/"
+            }
+        },
+        {
+            "game_index": 3,
+            "version": {
+                "name": "sapphire",
+                "url": "https://pokeapi.co/api/v2/version/8/"
+            }
+        },
+        {
+            "game_index": 3,
+            "version": {
+                "name": "emerald",
+                "url": "https://pokeapi.co/api/v2/version/9/"
+            }
+        },
+        {
+            "game_index": 3,
+            "version": {
+                "name": "firered",
+                "url": "https://pokeapi.co/api/v2/version/10/"
+            }
+        },
+        {
+            "game_index": 3,
+            "version": {
+                "name": "leafgreen",
+                "url": "https://pokeapi.co/api/v2/version/11/"
+            }
+        },
+ 
+
+/*****************************************ivysaur***********************************/
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "overgrow",
+                "url": "https://pokeapi.co/api/v2/ability/65/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "chlorophyll",
+                "url": "https://pokeapi.co/api/v2/ability/34/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 142,
+    "forms": [
+        {
+            "name": "ivysaur",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 9,
+            "version": {
+                "name": "red",
+                "url": "https://pokeapi.co/api/v2/version/1/"
+            }
+        },
+        {
+            "game_index": 9,
+            "version": {
+                "name": "blue",
+                "url": "https://pokeapi.co/api/v2/version/2/"
+            }
+        },
+        {
+            "game_index": 9,
+            "version": {
+                "name": "yellow",
+                "url": "https://pokeapi.co/api/v2/version/3/"
+            }
+        },
+        {
+            "game_index": 2,
+            "version": {
+                "name": "gold",
+                "url": "https://pokeapi.co/api/v2/version/4/"
+            }
+        },
+        {
+            "game_index": 2,
+            "version": {
+                "name": "silver",
+                "url": "https://pokeapi.co/api/v2/version/5/"
+            }
+        },
+        {
+            "game_index": 2,
+            "version": {
+                "name": "crystal",
+                "url": "https://pokeapi.co/api/v2/version/6/"
+            }
+        },
+        {
+            "game_index": 2,
+            "version": {
+                "name": "ruby",
+                "url": "https://pokeapi.co/api/v2/version/7/"
+            }
+        },
+        {
+            "game_index": 2,
+            "version": {
+                "name": "sapphire",
+                "url": "https://pokeapi.co/api/v2/version/8/"
+            }
+        },
+        {
+            "game_index": 2,
+            "version": {
+                "name": "emerald",
+                "url": "https://pokeapi.co/api/v2/version/9/"
+            }
+        },
+        {
+            "game_index": 2,
+            "version": {
+                "name": "firered",
+                "url": "https://pokeapi.co/api/v2/version/10/"
+            }
+        },
+        {
+            "game_index": 2,
+            "version": {
+                "name": "leafgreen",
+                "url": "https://pokeapi.co/api/v2/version/11/"
+            }
+        },
+ 
+
+/*****************************************charmender***********************************/
+
+  {  "abilities": [
+        {
+            "ability": {
+                "name": "blaze",
+                "url": "https://pokeapi.co/api/v2/ability/66/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "solar-power",
+                "url": "https://pokeapi.co/api/v2/ability/94/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 62,
+    "forms": [
+        {
+            "name": "charmander",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/4/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 176,
+            "version": {
+                "name": "red",
+                "url": "https://pokeapi.co/api/v2/version/1/"
+            }
+        },
+        {
+            "game_index": 176,
+            "version": {
+                "name": "blue",
+                "url": "https://pokeapi.co/api/v2/version/2/"
+            }
+        },
+        {
+            "game_index": 176,
+            "version": {
+                "name": "yellow",
+                "url": "https://pokeapi.co/api/v2/version/3/"
+            }
+        },
+        {
+            "game_index": 4,
+            "version": {
+                "name": "gold",
+                "url": "https://pokeapi.co/api/v2/version/4/"
+            }
+        },
+        {
+            "game_index": 4,
+            "version": {
+                "name": "silver",
+                "url": "https://pokeapi.co/api/v2/version/5/"
+            }
+        },
+        {
+            "game_index": 4,
+            "version": {
+                "name": "crystal",
+                "url": "https://pokeapi.co/api/v2/version/6/"
+            }
+        },
+        {
+            "game_index": 4,
+            "version": {
+                "name": "ruby",
+                "url": "https://pokeapi.co/api/v2/version/7/"
+            }
+        },
+        {
+            "game_index": 4,
+            "version": {
+                "name": "sapphire",
+                "url": "https://pokeapi.co/api/v2/version/8/"
+            }
+        },
+        {
+            "game_index": 4,
+            "version": {
+                "name": "emerald",
+                "url": "https://pokeapi.co/api/v2/version/9/"
+            }
+        },
+        {
+            "game_index": 4,
+            "version": {
+                "name": "firered",
+                "url": "https://pokeapi.co/api/v2/version/10/"
+            }
+        },
+        {
+            "game_index": 4,
+            "version": {
+                "name": "leafgreen",
+                "url": "https://pokeapi.co/api/v2/version/11/"
+            }
+        },
+ 
+
+/*****************************************charmeleon***********************************/
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "blaze",
+                "url": "https://pokeapi.co/api/v2/ability/66/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "solar-power",
+                "url": "https://pokeapi.co/api/v2/ability/94/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 142,
+    "forms": [
+        {
+            "name": "charmeleon",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/5/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 178,
+            "version": {
+                "name": "red",
+                "url": "https://pokeapi.co/api/v2/version/1/"
+            }
+        },
+        {
+            "game_index": 178,
+            "version": {
+                "name": "blue",
+                "url": "https://pokeapi.co/api/v2/version/2/"
+            }
+        },
+        {
+            "game_index": 178,
+            "version": {
+                "name": "yellow",
+                "url": "https://pokeapi.co/api/v2/version/3/"
+            }
+        },
+        {
+            "game_index": 5,
+            "version": {
+                "name": "gold",
+                "url": "https://pokeapi.co/api/v2/version/4/"
+            }
+        },
+        {
+            "game_index": 5,
+            "version": {
+                "name": "silver",
+                "url": "https://pokeapi.co/api/v2/version/5/"
+            }
+        },
+        {
+            "game_index": 5,
+            "version": {
+                "name": "crystal",
+                "url": "https://pokeapi.co/api/v2/version/6/"
+            }
+        },
+        {
+            "game_index": 5,
+            "version": {
+                "name": "ruby",
+                "url": "https://pokeapi.co/api/v2/version/7/"
+            }
+        },
+        {
+            "game_index": 5,
+            "version": {
+                "name": "sapphire",
+                "url": "https://pokeapi.co/api/v2/version/8/"
+            }
+        },
+        {
+            "game_index": 5,
+            "version": {
+                "name": "emerald",
+                "url": "https://pokeapi.co/api/v2/version/9/"
+            }
+        },
+        {
+            "game_index": 5,
+            "version": {
+                "name": "firered",
+                "url": "https://pokeapi.co/api/v2/version/10/"
+            }
+        },
+        {
+            "game_index": 5,
+            "version": {
+                "name": "leafgreen",
+                "url": "https://pokeapi.co/api/v2/version/11/"
+            }
+ 
+
+/*****************************************charizard***********************************/
+{
+
+    "abilities": [
+        {
+            "ability": {
+                "name": "blaze",
+                "url": "https://pokeapi.co/api/v2/ability/66/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "solar-power",
+                "url": "https://pokeapi.co/api/v2/ability/94/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 267,
+    "forms": [
+        {
+            "name": "charizard",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/6/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 180,
+            "version": {
+                "name": "red",
+                "url": "https://pokeapi.co/api/v2/version/1/"
+            }
+        },
+        {
+            "game_index": 180,
+            "version": {
+                "name": "blue",
+                "url": "https://pokeapi.co/api/v2/version/2/"
+            }
+        },
+        {
+            "game_index": 180,
+            "version": {
+                "name": "yellow",
+                "url": "https://pokeapi.co/api/v2/version/3/"
+            }
+        },
+        {
+            "game_index": 6,
+            "version": {
+                "name": "gold",
+                "url": "https://pokeapi.co/api/v2/version/4/"
+            }
+        },
+        {
+            "game_index": 6,
+            "version": {
+                "name": "silver",
+                "url": "https://pokeapi.co/api/v2/version/5/"
+            }
+        },
+        {
+            "game_index": 6,
+            "version": {
+                "name": "crystal",
+                "url": "https://pokeapi.co/api/v2/version/6/"
+            }
+        },
+        {
+            "game_index": 6,
+            "version": {
+                "name": "ruby",
+                "url": "https://pokeapi.co/api/v2/version/7/"
+            }
+        },
+        {
+            "game_index": 6,
+            "version": {
+                "name": "sapphire",
+                "url": "https://pokeapi.co/api/v2/version/8/"
+            }
+        },
+        {
+            "game_index": 6,
+            "version": {
+                "name": "emerald",
+                "url": "https://pokeapi.co/api/v2/version/9/"
+            }
+        },
+        {
+            "game_index": 6,
+            "version": {
+                "name": "firered",
+                "url": "https://pokeapi.co/api/v2/version/10/"
+            }
+        },
+        {
+            "game_index": 6,
+            "version": {
+                "name": "leafgreen",
+                "url": "https://pokeapi.co/api/v2/version/11/"
+            }
+        },
+        {
+ 
+

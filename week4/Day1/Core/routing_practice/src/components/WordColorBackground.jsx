@@ -15,9 +15,17 @@ const WordColorBackground = () => {
 
     return (
         <div style={containerStyle}>
-        {isNaN(word) && isNaN(color) ? (
+        {/* {isNaN(word) && isNaN(color) ? (
             <h1 style={textStyle}>The word is : {word}</h1>
-        ) : null}
+        ) : null} */}
+
+        {
+            isNaN(word)?
+                isNaN(color)? <h1 style={textStyle}>The word is : {word}</h1>:null
+
+            
+            :"please enter a word"
+        }
         </div>
     );
 };
