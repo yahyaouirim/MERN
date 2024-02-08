@@ -8,19 +8,29 @@ module.exports={
             res.json(oneproduct)})
         .catch(err => {res.json(err)})
         },
-     
-    // displayAllProducts:(req, res) =>{
-    //     Product.find()
-    //     .then((allProducts) =>{
-    //         res.json(allProducts)
+    
+    displayAllProducts:(req, res) =>{
+        Product.find()
+        .then((allProducts) =>{
+            res.json(allProducts)
 
-    //     })
-    //     .catch((err) => {
-    //         console.log("something went wrong",err)
+        })
+        .catch((err) => {
+            console.log("something went wrong",err)
 
-    //     })
+        })
 
-    // }
+    },
+
+    getOneProduct:(req,res) =>{
+        Product.findOne({_id:req.params.id})
+        .then((oneProduct)=>{
+            res.json(oneProduct)
+        })
+        .catch((err) => {
+            console.log("something went wrong", err)
+        })
+    }
 
 
 }

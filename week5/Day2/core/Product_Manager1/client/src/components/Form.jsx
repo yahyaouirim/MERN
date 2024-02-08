@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import DisplayAllProducts from './DisplayAllProducts'
  
-const Form = () => {
+const Form = (props) => {
+  const [allProducts, setAllProducts]=useState([])
   const [title, setTitle]=useState("")
   const [price, setPrice]=useState("")
   const [description, setDescription]=useState("")
@@ -12,6 +14,7 @@ const Form = () => {
       title, price, description
     })
     .then((res) =>{
+      setAllProducts([...allProducts, res.data])
       console.log(res.data)
       setTitle("");
       setPrice("");
@@ -45,6 +48,9 @@ const Form = () => {
         </div>
         <button className='btn' type='Submit'>Create</button>
       </form>
+      <div className='display'>
+        <DisplayAllProducts allProducts={allProducts} setAllProducts={setAllProducts} />
+      </div>
     </div>
   )
 }
