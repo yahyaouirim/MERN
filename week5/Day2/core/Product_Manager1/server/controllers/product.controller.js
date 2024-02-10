@@ -5,18 +5,23 @@ module.exports={
         Product.create(req.body)
         .then((oneproduct) => {
             console.log(oneproduct)
-            res.json(oneproduct)})
-        .catch(err => {res.json(err)})
-        },
+            res.status(200).json(oneproduct)
+        })
+        
+        .catch((err) => {
+            res.status(400).json("something went wrong", err)
+    
+        })
+    },
     
     displayAllProducts:(req, res) =>{
         Product.find()
         .then((allProducts) =>{
-            res.json(allProducts)
+            res.status(200).json(allProducts)
 
         })
         .catch((err) => {
-            console.log("something went wrong",err)
+            res.status(400).json("something went wrong", err)
 
         })
 
@@ -25,10 +30,33 @@ module.exports={
     getOneProduct:(req,res) =>{
         Product.findOne({_id:req.params.id})
         .then((oneProduct)=>{
-            res.json(oneProduct)
+            res.status(200).json(oneProduct)
         })
         .catch((err) => {
-            console.log("something went wrong", err)
+            res.status(400).json("something went wrong", err)
+        })
+    },
+    updateProduct:(req,res) =>{
+        Product.findOneAndUpdate({_id:req.params.id},req.body,{new:true, runValidators:true})
+        .then((updatedProduct) =>{
+            console.log("Product updated")
+
+            res.status(200).json(updatedProduct)
+        })
+        .catch((err) =>{
+            res.status(400).json("something went wrong on update", err)
+        })
+
+    },
+
+    deleteProduct:(req,res) => {
+        Product.deleteOne({_id: req.params.id})
+        .then((deletedProduct) =>{
+            console.log("Product deleted")
+            res.status(200).json(deletedProduct)
+        })
+        .catch((err)=>{
+            res.status(400).json("Something went wrong on delete", err)
         })
     }
 
