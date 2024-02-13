@@ -9,7 +9,7 @@ module.exports={
         })
         
         .catch((err) => {
-            res.status(400).json("something went wrong", err)
+            res.status(400).json(err)
     
         })
     },
@@ -21,7 +21,7 @@ module.exports={
 
         })
         .catch((err) => {
-            res.status(400).json("something went wrong", err)
+            res.status(400).json(err)
 
         })
 
@@ -33,7 +33,7 @@ module.exports={
             res.status(200).json(oneProduct)
         })
         .catch((err) => {
-            res.status(400).json("something went wrong", err)
+            res.status(400).json(err)
         })
     },
     updateProduct:(req,res) =>{
@@ -44,7 +44,7 @@ module.exports={
             res.status(200).json(updatedProduct)
         })
         .catch((err) =>{
-            res.status(400).json("something went wrong on update", err)
+            res.status(400).json(err)
         })
 
     },
@@ -56,7 +56,7 @@ module.exports={
             res.status(200).json(deletedProduct)
         })
         .catch((err)=>{
-            res.status(400).json("Something went wrong on delete", err)
+            res.status(400).json(err)
         })
     }
 

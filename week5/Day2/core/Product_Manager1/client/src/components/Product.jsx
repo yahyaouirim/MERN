@@ -5,7 +5,7 @@ import { Link, useParams, useNavigate } from 'react-router-dom'
 const Product = (props) => {
     const { id } = useParams();
     const nav = useNavigate();
-    const [allProducts, setAllProducts]=useState([])
+    const [allProducts, setAllProducts] = useState([])
 
     useEffect(() => {
         axios.get(`http://localhost:8000/api/products/${id}`)
@@ -18,33 +18,38 @@ const Product = (props) => {
             })
     }, [id])
 
-    const deleteOneProduct =()=>{
+    const deleteOneProduct = () => {
         axios.delete(`http://localhost:8000/api/products/delete/${id}`)
-        .then((res) =>{
-            console.log("this Product has been deleted", res.data);
-            nav("/");
-        })
-        .catch((err) =>{
-            console.log(err)
+            .then((res) => {
+                console.log("this Product has been deleted", res.data);
+                nav("/");
+            })
+            .catch((err) => {
+                console.log(err)
 
-        })
+            })
     }
     return (
-        <div className='card text-info mt-5 w-50 mx-auto shadow p-3 mb-5 bg-body-tertiary rounded'>
-            {
-                allProducts ?
-                    <>
-                        <h2 className='card-title'>Name of Product: {allProducts.title} </h2>
-                        <h3>The Price: {allProducts.price}</h3>
-                        <p className='card-text'>The Description: {allProducts.description}</p>
-                        <Link to={"/products/edit/"+allProducts._id}>Update </Link>
-                        <button  onClick= {deleteOneProduct}>Delete</button>
+        <div className='card text-dark mt-5 w-25 mx-auto shadow p-4 gap-3 mb-5 bg-white rounded'>
+                {
+                    allProducts ?
+                        <>
+                            <h2 className='card-title text-primary'> {allProducts.title} </h2>
+                            <h3>The Price: {allProducts.price}</h3>
+                            <p className='card-text'>The Description: {allProducts.description}</p>
+                            <div className='container d-flex justify-content-center flex-between gap-4'>
+                                <Link className='btn btn-outline-warning' to={"/products/edit/" + allProducts._id}>Update </Link>
 
-                    
-                    </>
-                    :<h3> Loading ...</h3>
-            }
-        </div>
+                                <button className='btn btn-outline-danger' onClick={deleteOneProduct}>Delete</button>
+                                <Link className='btn btn-outline-primary' to="/" >Home</Link>
+
+                            </div>
+
+
+                        </>
+                        : <h3> Loading ...</h3>
+                }
+            </div>
     )
 }
 

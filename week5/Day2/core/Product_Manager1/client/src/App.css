@@ -1,48 +1,59 @@
-
+body{
+  background-color: rgb(251,251,251);
+}
 .App {
   text-align: center;
 }
+.create{
+  border: 2px solid transparent;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px rgb(226, 226, 226), -5px -5px 20px rgb(226, 226, 226);
+  padding: 10px;
+  width: 50%;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
 
+}
 header{
   font-size: xx-large;
   margin: 25px 0px;
   color:rgb(136, 135, 135);
 }
 .formP{
-  width: 50%;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
 }
+.create:hover{
+  transform: scale(1.03);
+}
 
 .form-fields{
+  width: 75%;
   color:rgb(136, 135, 135);
   display: flex;
   justify-content: space-between;
-  width: 390px;
   margin: auto;
-  /* border-radius: 30px; */
   padding:15px;
-  /* background-color: rgb(236, 236, 236); */
   background-color: rgb(249, 249, 249);
   border-bottom: 2px solid #ccc;
 }
 
 .form-fields>input{
-  /* border-radius: 30px; */
   border: none;
   width: 75%;
   height: 30px;
 }
-.btn:focus, .btn:hover{
+.btnCreate:focus, .btnCreate:hover{
   border: 3px solid #ccc;
   background: transparent;
 }
-.btn{
+.btnCreate{
   border: none;
-  width: 25%;
+  max-width: 50%;
   padding: 10px 20px;
   border-bottom: 2px solid #ccc;
   color:rgb(136, 135, 135);
@@ -50,10 +61,14 @@ header{
   background-color: rgb(249, 249, 249);
 
 }
-.display{
-  width: 75%;
-  margin:auto ;
-  margin-top: 60px;
-  border:2px solide red;
+.card:hover{
+  transform: scale(1.05);
 }
 
+.edit{
+  text-decoration: none;
+  color:hwb(27 20% 5%);
+}
+.edit:hover{
+  color:white
+}
