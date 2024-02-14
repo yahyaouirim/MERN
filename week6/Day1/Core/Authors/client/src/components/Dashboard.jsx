@@ -40,18 +40,18 @@ const Dashboard = () => {
 
     return (
         <div>
-            <div className="header  mx-auto d-flex justify-content-around mt-5">
-            <h1 className='text-primary'> Favorits Authors</h1>
-            <Link to={"/authors/new"} > Add an Author </Link>
+             <div className=" mx-auto d-flex justify-content-around  align-item-center shadow p-3 mb-5 bg-white rounded">
+                <div><h1 className='text-primary fst-italic'> Favorits Authors</h1></div>
+                <div><Link  className="fs-2 fst-italic btn btn-outline-primary" to={"/authors/new"} > Add New Author </Link></div>
             </div>
-            <div className='container w-50 mt-5 d-flex justify-content-center'>
+            <div className='container w-75 mt-5 d-flex justify-content-center'>
                 <table className='table table-hover table-striped'>
-                    <thead>
+                    <thead className='fs-3 mt-3 bg-black text-light'>
                         <th>Authors</th>
                         <th>Actions Available</th>
                         <th></th>
                     </thead>
-                    <tbody>
+                    <tbody className='fs-4'>
                         {
                             authors.map((oneAuthor) => {
                                 return (
